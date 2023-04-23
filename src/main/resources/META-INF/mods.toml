@@ -1,0 +1,12 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "All Rights Reserved"
+[[mods]]
+modId = "better_enchantments"
+version = "${file.jarVersion}"
+displayName = "[BEM] Better Enchantments"
+authors = "TheOneWithBlueEyes"
+logoFile="logo.png"
+description = '''
+This is a simple mod that fixes and allows basic customization of Vanilla Enchantments up to Level 10. Disclaimer: This mod does not alter Modded Enchantments in any way and is intended to be used in a Vanilla+ modpack.
+'''
