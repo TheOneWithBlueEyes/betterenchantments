@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "us.blueeyemods.uem.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "uem.refmap.json",
+  "mixins": [
+    "mending.ExperienceOrbMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

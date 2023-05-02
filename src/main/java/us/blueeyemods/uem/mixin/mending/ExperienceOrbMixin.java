@@ -1,4 +1,4 @@
-package us.blueeyemods.better_enchantments.mixin.mending;
+package us.blueeyemods.uem.mixin.mending;
 
 
 import com.google.common.collect.Lists;
@@ -53,7 +53,7 @@ public class ExperienceOrbMixin {
                     target = "Lnet/minecraft/world/item/ItemStack;getXpRepairRatio()F"
             )
     )
-    private float betterenchantments$repairPlayerItemsGetMendingRepairRatioInjection(ItemStack stack) {
+    private float betterenchantments$redirectRepairRatio(ItemStack stack) {
         return (float)this.getMendingRepairRatio(this.currentMendingLevel);
     }
 
@@ -64,7 +64,7 @@ public class ExperienceOrbMixin {
                     target = "Lnet/minecraft/world/entity/ExperienceOrb;durabilityToXp(I)I"
             )
     )
-    private int betterenchantments$repairPlayerItemsGetMendingRepairCostInjection(ExperienceOrb instance, int repairAmount) {
+    private int betterenchantments$redirectRepairCost(ExperienceOrb instance, int repairAmount) {
         return this.getMendingRepairCost(repairAmount, this.currentMendingLevel);
     }
     @Redirect(

@@ -2,9 +2,9 @@ modLoader = "javafml"
 loaderVersion = "[40,)"
 license = "All Rights Reserved"
 [[mods]]
-modId = "better_enchantments"
+modId = "uem"
 version = "${file.jarVersion}"
-displayName = "[BEM] Better Enchantments"
+displayName = "[BEM] Ultimate Enchantment Management"
 authors = "TheOneWithBlueEyes"
 logoFile="logo.png"
 description = '''
